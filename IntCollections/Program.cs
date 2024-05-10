@@ -38,5 +38,14 @@ class Program
         Console.WriteLine();
     }
 
- 
+    static void PrintQueue(Queue<int> queue)
+    {
+        Console.Write("Queue: ");
+        foreach (int i in queue)
+        {
+            Console.Write($"{i}, ");
+        }
+        Console.WriteLine();
+    }
+
 }
