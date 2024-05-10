@@ -48,4 +48,13 @@ class Program
         Console.WriteLine();
     }
 
+    static void PrintHashSet(HashSet<int> hashSet)
+    {
+        Console.Write("HashSet: ");
+        foreach (int i in hashSet)
+        {
+            Console.Write($"{i}, ");
+        }
+        Console.WriteLine();
+    }
 }
