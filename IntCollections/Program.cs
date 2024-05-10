@@ -18,4 +18,15 @@ class Program
         PrintHashSet(hashSet);
     }
 
+    static void PrintList(List<int> list)
+    {
+        Console.Write("List: ");
+        foreach (int i in list)
+        {
+            Console.Write($"{i}, ");
+        }
+        Console.WriteLine();
+    }
+
+
 }
