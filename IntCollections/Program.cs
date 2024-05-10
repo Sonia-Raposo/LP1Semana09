@@ -28,5 +28,15 @@ class Program
         Console.WriteLine();
     }
 
+    static void PrintStack(Stack<int> stack)
+    {
+        Console.Write("Stack: ");
+        foreach (int i in stack)
+        {
+            Console.Write($"{i}, ");
+        }
+        Console.WriteLine();
+    }
 
+ 
 }
